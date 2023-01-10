@@ -47,10 +47,10 @@ jobs:
           repository: shiharuharu/domain-list-custom
           path: custom
 
-      - name: Checkout v2fly/domain-list-community
+      - name: Checkout shiharuharu/domain-list-community
         uses: actions/checkout@v3
         with:
-          repository: v2fly/domain-list-community
+          repository: shiharuharu/domain-list-community
           path: community
 
       - name: Checkout cokebar/gfwlist2dnsmasq
